@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body,
+  #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #1b0e05;
+    color: #fff3d8;
+    font-family: "Rubik", "Trebuchet MS", -apple-system, BlinkMacSystemFont, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+}
+
+.font-mono-num {
+  font-family: "JetBrains Mono", monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.stroke-title {
+  text-shadow:
+    0 3px 0 #3a1c08,
+    0 6px 18px rgba(20, 8, 2, 0.72);
+}
+
+.wood-plaque {
+  background: linear-gradient(180deg, rgba(66, 36, 15, 0.9) 0%, rgba(44, 23, 9, 0.94) 100%);
+  border: 2px solid rgba(235, 182, 112, 0.36);
+  box-shadow:
+    0 10px 26px rgba(15, 6, 1, 0.55),
+    inset 0 1px 0 rgba(255, 232, 185, 0.22);
+}
+
+.wood-modal {
+  background: linear-gradient(180deg, rgba(62, 34, 14, 0.97) 0%, rgba(38, 20, 8, 0.98) 100%);
+  border: 2px solid rgba(242, 192, 120, 0.44);
+  box-shadow:
+    0 24px 64px rgba(10, 4, 0, 0.78),
+    inset 0 1px 0 rgba(255, 235, 195, 0.25);
+}
+
+.btn-desert-primary {
+  background: #f29d38;
+  color: #2e1505;
+  border: 2px solid #ffe0a3;
+  box-shadow:
+    0 5px 0 #8c4812,
+    0 10px 24px rgba(242, 157, 56, 0.38);
+  transition: transform 120ms ease, background-color 120ms ease, box-shadow 120ms ease;
+}
+
+.btn-desert-primary:hover {
+  background: #ffae47;
+  transform: translateY(-1px);
+}
+
+.btn-desert-primary:active {
+  transform: translateY(3px);
+  box-shadow:
+    0 2px 0 #8c4812,
+    0 4px 12px rgba(242, 157, 56, 0.28);
+}
+
+.btn-desert-secondary {
+  background: rgba(88, 48, 20, 0.85);
+  color: #ffe9c4;
+  border: 2px solid rgba(238, 190, 125, 0.42);
+  box-shadow: 0 4px 0 rgba(34, 16, 5, 0.9);
+  transition: transform 120ms ease, background-color 120ms ease;
+}
+
+.btn-desert-secondary:hover {
+  background: rgba(112, 62, 26, 0.92);
+  transform: translateY(-1px);
+}
+
+.btn-desert-secondary:active {
+  transform: translateY(2px);
+}

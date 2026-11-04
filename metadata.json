@@ -1,0 +1,6 @@
+{
+  "name": "Тушканчики на старте — Гонки по пустыне",
+  "description": "Аркадные гонки на тушканчиках по песчаным дюнам и каньонам. Прыгай в такт приземления, лови поток и обгоняй соперников на дистанции 850 метров.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
